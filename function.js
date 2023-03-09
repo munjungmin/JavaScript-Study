@@ -175,6 +175,7 @@ function calculate(command, a, b) {
             return a % b;
         default:
             console.log('wrong command');
+            // throw Error('unknown command');
             break;
     }
     return 0;
